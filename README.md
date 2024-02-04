@@ -15,3 +15,4 @@ d. Used database in the app with justification on why to choose it.
 i used GetStorage cuz 1)its didnt ask for permission 2)its a small data that why i didnt use sqflite 3)i didnt need await to get the data i can call it from any where
 
 note: i didnt write a unit test cuz i get alot of issues from the api cuz the response change , i start again to handle it and the response that retrive has a weird syntax and i spent alot of time just to handle it .
+I used 163 req im still having 137 req
