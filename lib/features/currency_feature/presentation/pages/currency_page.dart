@@ -175,7 +175,7 @@ class _CurrencyPageState extends State<CurrencyPage> {
                   ? Container(
                       margin: const EdgeInsets.only(top: 10),
                       child: Text(
-                          context.read<CurrencyAppCubit>().total.toString().substring(0,4)))
+                          context.read<CurrencyAppCubit>().total.round().toString()))
                   : const SizedBox()
             ]),
           );
