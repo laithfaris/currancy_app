@@ -34,7 +34,7 @@ class _HistoryPageState extends State<HistoryPage> {
                             .read<CurrencyAppCubit>()
                             .listHistory[index]["date"]
                             .toString()
-                            .substring(0, 10)),
+                            ),
                       ),
                       ListTile(
                         title: Row(
@@ -43,7 +43,7 @@ class _HistoryPageState extends State<HistoryPage> {
                             Text(
                                 "code: ${context.read<CurrencyAppCubit>().listHistory[index]["data"]["CAD"]["code"]}"),
                             Text(
-                                "value: ${context.read<CurrencyAppCubit>().listHistory[index]["data"]["CAD"]["value"].toString().substring(0, 4)}")
+                                "value: ${context.read<CurrencyAppCubit>().listHistory[index]["data"]["CAD"]["value"]}")
                           ],
                         ),
                       ),
